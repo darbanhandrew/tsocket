@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tsocket *.css
+recursive-include tsocket *.csv
+recursive-include tsocket *.html
+recursive-include tsocket *.ico
+recursive-include tsocket *.js
+recursive-include tsocket *.json
+recursive-include tsocket *.md
+recursive-include tsocket *.png
+recursive-include tsocket *.py
+recursive-include tsocket *.svg
+recursive-include tsocket *.txt
+recursive-exclude tsocket *.pyc
